@@ -17,7 +17,10 @@ body{
 }
 
 header{
-    background-color: #183f8ce3;
+    background-color: #183f8ce7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -29,14 +32,11 @@ header{
 
 h1{
     color: white;
-    font-size: 3.2vw;
+    font-size: 3rem;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.342);
-    line-height: 50px;
-    float: left;
 }
 
 .iconsHeader{
-    display: inline-block;
     margin-left: 30px;
     padding: 10px;
     
@@ -46,20 +46,21 @@ h1{
     text-decoration: none;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     line-height: 50px;
-    color: black;
+    color: white;
+    font-size: 1.3rem;
 }
 
 .menu:hover{
-    color: white;
+    color: #F2CB05;
     transition: 0.2s;
 }
 
 .logoG{
-    max-width: 150px;
+    max-width: 180px;
     float: right;
 }
-
-main{
+/* 
+ main{
     max-width: 89%;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
@@ -70,10 +71,10 @@ main{
 h2{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     color: #183f8c;
-}
+} */
 
-/* Card quem somos */
 
+/* 
 #cardTitle{
     background-color: rgba(255, 255, 255, 0.842);
     position: absolute;
@@ -92,17 +93,16 @@ h2{
     position: relative;
     top: 80px;
 
-}
+    
+    
+    #pneus{
+        max-width: 100%;
+    }
+}  Card apresentação
+    */
 
 
-#pneus{
-    max-width: 100%;
-}
-/* Fim do Card */
-
-
-/* Inicio section Service */
-
+/*
 #services{
     position: relative;
     text-align: center;
@@ -182,10 +182,10 @@ h2{
 }
 
 
-/* Fim da section Service */
+*/
 
 
-/* Inico do Mapa */
+/* 
 
 #localization{
     position: relative;
@@ -245,9 +245,9 @@ h2{
     top: 20px;
 }
 
-/* Fim do mapa */
+ Fim do mapa */
 
-/* Area de contato do cliente */
+/* 
 
 #contact{
     position: relative;
@@ -298,9 +298,9 @@ h2{
     transition: 0.5s;
 }
 
-/* Final da area de contato */
+ Final da area de contato */
 
-footer{
+/* footer{
     position: relative;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: black;
@@ -311,9 +311,9 @@ footer{
     text-align: center;
     width: 80%;
     margin: auto;
-}
+}  */
 
-/* Inicio do botão flutuante */
+/* 
 
 .buttonWpp{
     position:fixed;
@@ -334,9 +334,30 @@ footer{
     margin-top: 13px;
 }
 
-/* Fim do botão flutuante */
+ */
 
 
-@media screen and(max-width: 960px){
-    
+@media screen and (max-width: 1115px){
+    .iconsHeader{
+        margin: auto;
+
+    }
+    .menu{
+        font-size: 1.2rem;
+    }
+    .logoG{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    header{
+        display: inline-block;
+        height: 95px;
+    }
+    .iconsHeader{
+        display: inline-block;
+        margin:auto; 
+    }
+
 }
