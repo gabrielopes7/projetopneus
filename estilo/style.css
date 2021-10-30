@@ -17,7 +17,7 @@ body{
 }
 
 header{
-    background-color: #183f8ce7;
+    background-color: #183f8c;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -59,7 +59,7 @@ h1{
     max-width: 180px;
     float: right;
 }
-/* 
+
  main{
     max-width: 89%;
     background-color: white;
@@ -70,36 +70,31 @@ h1{
 
 h2{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     color: #183f8c;
-} */
+} 
 
 
-/* 
+
 #cardTitle{
-    background-color: rgba(255, 255, 255, 0.842);
-    position: absolute;
+    background-color: rgba(255, 255, 255, 0.774);
+    max-width: 800px;
+    margin: auto;
     text-align: center;
-    left: 240px;
-    top: 20px;
-    max-width: 300px;
     padding: 10px;
-    height: 500px;
+    padding-top: 80px;
+    height: 400px;
     box-shadow: -2px 3px 7px rgba(0, 0, 0, 0.384);
 }
 
 #howPneus{
-    max-width: 100%;
-    text-align: center;
-    position: relative;
-    top: 80px;
-
-    
-    
-    #pneus{
-        max-width: 100%;
-    }
-}  Card apresentação
-    */
+    background-image: url(../imagens/pneus2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+}
 
 
 /*
@@ -343,7 +338,7 @@ h2{
 
     }
     .menu{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .logoG{
         display: none;
@@ -358,6 +353,10 @@ h2{
     .iconsHeader{
         display: inline-block;
         margin:auto; 
+    }
+    #cardTitle{
+        padding-top: 110px;
+        height: 450px;
     }
 
 }
