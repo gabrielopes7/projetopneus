@@ -203,41 +203,35 @@ h2 {
   padding: 20px;
 }
 
-/* 
+
+
+
+
+
+
+
 
 #contact{
-    position: relative;
+    display: grid;
+    grid-template: auto / auto auto;
+    justify-content: space-evenly;
+    align-content: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: white;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.411);
-    border-radius: 5px;
-    top: 220px;
-    height: 200px;
-}
-
-.contact{
-    position: relative;
-    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+    margin-top: 120px;
     padding: 20px;
-    max-width: 460px;
-    height: 200px;
+    width: 80%;
 }
 
 .imageContact{
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .marginLink{
     margin-left: 10px;
-}
-
-.socialMedia{
-    position: relative;
-    float: right;
-    padding: 20px;
-    width: 460px;
-    height: 200px;
 }
 
 .linkContact{
@@ -254,22 +248,20 @@ h2 {
     transition: 0.5s;
 }
 
- Final da area de contato */
 
-/* footer{
-    position: relative;
+ footer{
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: black;
-    top: 233px;
+    background-color: #183f8c;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.411);
     color: white;
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin: auto;
-}  */
+} 
 
-/* 
+
 
 .buttonWpp{
     position:fixed;
@@ -290,7 +282,6 @@ h2 {
     margin-top: 13px;
 }
 
- */
 
 @media screen and (max-width: 1115px) {
   .iconsHeader {
@@ -391,5 +382,8 @@ h2 {
 
   .suspension {
     grid-row-start: 7;
+  }
+  #contact{
+    grid-template: auto auto / auto;
   }
 }
