@@ -387,3 +387,13 @@ h2 {
     grid-template: auto auto / auto;
   }
 }
+
+@media screen and (max-width: 500px){
+  .iconsHeader img {
+    display: none;
+  }
+
+  #cardTitle{
+    height: 570px;
+  }
+}
