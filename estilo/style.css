@@ -389,11 +389,27 @@ h2 {
 }
 
 @media screen and (max-width: 500px){
+  h1{
+    font-size: 2.4rem;
+  }
+  #cardTitle{
+    height: 680px;
+  }
+  
+  .menu{
+    font-size: 0.8rem;
+  }
+
   .iconsHeader img {
     display: none;
   }
 
-  #cardTitle{
-    height: 570px;
+  .buttonRote {
+    width: 150px;
+
+  }
+
+  .localization{
+    width: 100%;
   }
 }
